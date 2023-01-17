@@ -4,5 +4,5 @@ WORKDIR src
 COPY src/ .
 COPY pyproject.toml ./stub.toml
 
-EXPOSE 7070
+EXPOSE 7007
 RUN pip install uvicorn

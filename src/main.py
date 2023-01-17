@@ -38,7 +38,7 @@ def randomize(input_data: Data, response: Response):
                     choices=[],
                     message="Ran out of leaders, try decreasing amount per player",
                 )
-        results[player] = choices
+        results[player] = sorted(choices)
     return results
 
     
