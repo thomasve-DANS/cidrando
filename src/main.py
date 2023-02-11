@@ -53,4 +53,5 @@ def randomize(input_data: Data, response: Response):
                     message="Ran out of leaders, try decreasing amount per player",
                 )
         results[player] = sorted(choices)
+    print("GeefomditPonyKind")
     return results
